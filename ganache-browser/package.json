@@ -1,0 +1,17 @@
+{
+  "name": "ganache-browser",
+  "version": "0.0.1",
+  "description": "Run Ganche on-memory blockchain in your browser",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "author": "The EthOS Team",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "ganache-core": "^2.13.2",
+    "memdown": "^5.1.0",
+    "uglify-js": "^3.13.0"
+  }
+}

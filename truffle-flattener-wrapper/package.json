@@ -1,0 +1,29 @@
+{
+  "name": "truffle-flattener-wrapper",
+  "version": "0.0.1",
+  "description": "A Simple Truffle Flattener Wrapper to easily unpack complex Solidiy contract structures",
+  "main": "cli.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-u-i-d-l/truffle-flattener-wrapper.git"
+  },
+  "keywords": [
+    "truffle",
+    "flattener"
+  ],
+  "author": "The EthOS Team",
+  "license": "ISC",
+  "bin": {
+    "truffle-flattener-wrapper": "./cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/b-u-i-d-l/truffle-flattener-wrapper/issues"
+  },
+  "homepage": "https://github.com/b-u-i-d-l/truffle-flattener-wrapper#readme",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "parent-module": "^2.0.0",
+    "truffle-flattener": "^1.5.0"
+  }
+}
