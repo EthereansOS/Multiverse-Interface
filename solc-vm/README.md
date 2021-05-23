@@ -2,6 +2,12 @@
 
 `solc-vm` allows us to manage solidity compiler (solc) and compile sol files from the tool directly with specific compiler version.
 
+## Original Repo
+
+This is a **fork** of the original `solc-vm` project you can find here https://github.com/ConsenSysMesh/solc-vm
+
+This fork is just needed to upgrade all the logics of the great work that the original repo owners and maintainers made, in order to support newest version of Solidity
+
 ## Prerequisites
 - NodeJS (Tested with Version 8.x.x)
 - NPM (Tested with Version 6.x.x)
